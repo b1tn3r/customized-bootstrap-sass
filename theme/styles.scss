@@ -1,0 +1,28 @@
+
+@import 'bootstrap/variables';       // if you want our custom _variables to override the darkly theme variables
+
+@import '~bootswatch/dist/slate/variables';      // define bootswatch theme's variables first before our bootstrap config which will set all the colors, palette, and look for the theme
+@import 'bootstrap/bootstrap';                                // imports our bootstrap custom configuration
+@import '~bootswatch/dist/slate/bootswatch';                   // overrides the bootstrap functionality that the theme (darkly) needs to function as intended (these include overwritten functions and such)
+
+
+// Pages Styles
+//@import '../pages/home/Home';
+
+// Components/Layout Styles
+@import 'header';
+@import 'footer';
+
+
+* {
+    color: white;
+}
+
+html, body {
+    font: 14px "Roboto", Helvetica, Arial, sans-serif;
+    background-color: #222222;
+}
+
+a {
+    color: #00B7FF;
+}

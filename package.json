@@ -1,0 +1,20 @@
+{
+  "name": "custom-bootstrap-sass",
+  "version": "1.0.0",
+  "description": "Custom setup for adding bootstrap's sass styles to a project and easy disabling of unused parts of bootstrap.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bootstrap",
+    "sass",
+    "custom",
+    "template"
+  ],
+  "author": "Titan Global Tech",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "bootswatch": "^4.0.0"
+  }
+}
